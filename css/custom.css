@@ -1,0 +1,25 @@
+.jumbotron-blue {
+  background-color: #aaa8aa
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+a {
+   color: inherit;
+}
+
+a:hover {
+  color: #003366;
+}
+
+.link-blue {
+  color: #003366;
+}
+
+.regular-link {
+  color: blue;
+}
