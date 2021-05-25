@@ -1,0 +1,255 @@
+<tr>
+	<td>Matthew Simon</td>
+	<td>Bethesda MD</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Ben Cohen</td>
+	<td>Wexford, PA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Chaney Sheehan</td>
+	<td>Farmville, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Eric Goldberg</td>
+	<td>Montclair, NJ</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Hayden Tickle </td>
+	<td>Lebanon, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Isaac Leifert</td>
+	<td>Boca Raton, FL</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Jackson Wray</td>
+	<td>Sammamish, WA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Jacob Borenstein</td>
+	<td>Fairfax Station, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Jason Calem</td>
+	<td>Vienna, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Kyle Glassman</td>
+	<td>Katonah, NY</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Matt Roer</td>
+	<td>Greenwich, CT</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Owen Firnstahl</td>
+	<td>Suffolk, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Rod Aryan</td>
+	<td>Reston, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Seth Lewis</td>
+	<td>Alexandria, VA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Spander Mandlebaum</td>
+	<td>Syosset, NY</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Julian Sherr</td>
+	<td>Harrisburg, PA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Zane Begun</td>
+	<td>Potomac, MD</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Jake Berger</td>
+	<td>Metuchen, NJ</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Michael Fechter Jr.</td>
+	<td>Cohasset, MA</td>
+	<td>2022</td>
+</tr>
+<tr>
+	<td>Drew Goldman</td>
+	<td>Roslyn, NY</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Cameron Weisfeld</td>
+	<td>Beverly Hills, CA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Jaden Kyler-Wank</td>
+	<td>Woodbury, NY</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Sidney Garfinkel</td>
+	<td>Nashville, TN</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Matthew Nolan</td>
+	<td>Bayport, NY</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Cooper Scher</td>
+	<td>Syosset, NY</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Todd Rissman</td>
+	<td>Boca Raton, FL</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Gary Dean</td>
+	<td>Nashville, TN</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Joshua Gen</td>
+	<td>Fresno, CA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Aaron Miller</td>
+	<td>Weston, CT</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Zachary Abruzzese</td>
+	<td>Reading, MA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Ethan Gimbel</td>
+	<td>Shaker Heights, OH</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Adin Segal</td>
+	<td>Palm Beach, FL</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Adam Adelstein</td>
+	<td>Arlington, VA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Joshua Hambrecht</td>
+	<td>Oakton, VA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Aidan Mossip</td>
+	<td>Collegeville, PA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Maxwell Pilloff</td>
+	<td>Vienna, VA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Andrew Robinson</td>
+	<td>Potomac, MD</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Michael Murphy</td>
+	<td>Bethesda, MD</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Michael Hall</td>
+	<td>Wheeling, WV</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Udhava Gupta</td>
+	<td>Jaipur, Rajasthan (India)</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Cesar Engelhard</td>
+	<td>Sterling, VA</td>
+	<td>2023</td>
+</tr>
+<tr>
+	<td>Asher Friedman-Rosen</td>
+	<td>Washington, DC</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Andrew Ringold</td>
+	<td>Allentown, PA</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Zachary Harris</td>
+	<td>Robbinsville, NJ</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>William Snodgrass</td>
+	<td>Denver, CO</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Parth Mehta</td>
+	<td>Ashburn, VA</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Oliver Davidoorf</td>
+	<td>Calabasas, CA</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Evan Crowne</td>
+	<td>Gainesville, VA</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Ben Ross</td>
+	<td>Vienna VA</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Spencer Horowitz</td>
+	<td>Great Neck, NY</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td>Samuel Klein</td>
+	<td>Oakton, VA</td>
+	<td>2024</td>
+</tr>
