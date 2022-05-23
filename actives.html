@@ -20,19 +20,19 @@
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
-<body>
-<div class="header">
+<header class="header">
     <img class="center-block" src="img/aepilogo.png" width="76.5" height="99"/>
-    <p class="title"><a class="link" href="index.html">Alpha Epsilon Pi | Mu Chapter</a></p>
-    <p class="description">At the University of Virginia</p>
-</div>
+    <p class="title" style="cursor: default;">Alpha Epsilon Pi | Mu Chapter</p>
+    <p class="description" style="cursor: default;">At the University of Virginia</p>
+</header>
+<body class="body">
 <div class="navbar bg-primary">
     <div class="container text-center">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html"><strong>Home</strong></a></li>
-            <li class="dropdown">
+            <button onclick="location.href = 'index.html';" class="nav-buttons">Home</button>
+            <button class="dropdown nav-buttons">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span
-                        class="caret"></span></a>
+                    class="caret"></span></a>
                 <ul class="dropdown-menu text-center">
                     <li><a href="actives.html">Active Brothers</a></li>
                     <li class="divider"></li>
@@ -42,10 +42,10 @@
                     <li class="divider"></li>
                     <li><a href="composites.html">Recent Composites</a></li>
                 </ul>
-            </li>
-            <li><a href="rush.html">Rush AEPi</a></li>
-            <li><a href="support.html">Support Mu</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            </button>
+            <button onclick="location.href = 'rush.html';" class="nav-buttons">Rush AEPi</button>
+            <button onclick="location.href = 'support.html';" class="nav-buttons">Support Mu</button>
+            <button onclick="location.href = 'contact.html';" class="nav-buttons">Contact</button>
         </ul>
     </div>
 </div>
@@ -53,100 +53,10 @@
 <div class="container">
     <div class="jumbotron text-left">
         <h2><strong>Active Brothers</strong></h2>
-        <p>There are currently 50 active brothers.</p>
+        <p>There are currently 54 active brothers.</p>
     </div>
     <div class="well well-lg">
         <table class="table table-striped">
-            <tr>
-                <td>Matthew Simon</td>
-                <td>Bethesda MD</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Chaney Sheehan</td>
-                <td>Farmville, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Eric Goldberg</td>
-                <td>Montclair, NJ</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Hayden Tickle</td>
-                <td>Lebanon, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Isaac Leifert</td>
-                <td>Boca Raton, FL</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Jackson Wray</td>
-                <td>Sammamish, WA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Jacob Borenstein</td>
-                <td>Fairfax Station, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Jason Calem</td>
-                <td>Vienna, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Kyle Glassman</td>
-                <td>Katonah, NY</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Matt Roer</td>
-                <td>Greenwich, CT</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Owen Firnstahl</td>
-                <td>Suffolk, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Rod Aryan</td>
-                <td>Reston, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Seth Lewis</td>
-                <td>Alexandria, VA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Spencer Mandlebaum</td>
-                <td>Syosset, NY</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Julian Sherr</td>
-                <td>Harrisburg, PA</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Zane Begun</td>
-                <td>Potomac, MD</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Jake Berger</td>
-                <td>Metuchen, NJ</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Michael Fechter Jr.</td>
-                <td>Cohasset, MA</td>
-                <td>2022</td>
-            </tr>
             <tr>
                 <td>Drew Goldman</td>
                 <td>Roslyn, NY</td>
@@ -208,11 +118,6 @@
                 <td>2023</td>
             </tr>
             <tr>
-                <td>Adin Segal</td>
-                <td>Palm Beach, FL</td>
-                <td>2023</td>
-            </tr>
-            <tr>
                 <td>Adam Adelstein</td>
                 <td>Arlington, VA</td>
                 <td>2023</td>
@@ -223,28 +128,13 @@
                 <td>2023</td>
             </tr>
             <tr>
-                <td>Aidan Mossip</td>
-                <td>Collegeville, PA</td>
-                <td>2023</td>
-            </tr>
-            <tr>
                 <td>Maxwell Pilloff</td>
                 <td>Vienna, VA</td>
                 <td>2023</td>
             </tr>
             <tr>
-                <td>Andrew Robinson</td>
-                <td>Potomac, MD</td>
-                <td>2023</td>
-            </tr>
-            <tr>
                 <td>Michael Murphy</td>
                 <td>Bethesda, MD</td>
-                <td>2023</td>
-            </tr>
-            <tr>
-                <td>Michael Hall</td>
-                <td>Wheeling, WV</td>
                 <td>2023</td>
             </tr>
             <tr>
@@ -307,10 +197,140 @@
                 <td>Oakton, VA</td>
                 <td>2024</td>
             </tr>
+            <tr>
+                <td>Alec Kane</td>
+                <td>Philadelphia, PA</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Elie Syriani</td>
+                <td>Vienna, VA</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Alex Mogel</td>
+                <td>West Hartford, CT</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Andrew Gaines</td>
+                <td>Parkland, FL</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Campbell Ziselman</td>
+                <td>Herndon, VA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Charlie Healy</td>
+                <td>Ridgewood, NJ</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Colin Dockter</td>
+                <td>Alexandria, VA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Eli Beaubien</td>
+                <td>Bryn Mawr, PA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Ethan Fox</td>
+                <td>Chicago, IL</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Grant Garland</td>
+                <td>St. Louis, MO</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Hudson Noyes</td>
+                <td>Arlington, VA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Hugh Trotter</td>
+                <td>Atlanta, GA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Jameson Sandler</td>
+                <td>Bethesda, MD</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Jason Simon</td>
+                <td>Bethesda, MD</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Logan Wasserman</td>
+                <td>Harrison, NY</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Matthew Krinn</td>
+                <td>Chevy Chase, MD</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Max Borenstein</td>
+                <td>Fairfax, VA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Nadav Cohen</td>
+                <td>Roslyn Heights, NY</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Nathan Henderson</td>
+                <td>Harrisonburg, VA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Nathan Welz</td>
+                <td>South Riding, VA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Nate Kimball</td>
+                <td>Port Washington, NY</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Robbie Lefkowitz</td>
+                <td>Rockville, MD</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Trent Cohen</td>
+                <td>Wynnewood, PA</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>William Yu</td>
+                <td>Warren, NJ</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Zachary Abraham</td>
+                <td>Austin, TX</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Zachary Raney</td>
+                <td>Durham, NC</td>
+                <td>2025</td>
+            </tr>
         </table>
     </div>
     <hr>
-    <div class="well well-sm text-right">© 2012-2018 Copyright AEΠ Mu</div>
+    <div class="well well-sm text-right">© 2012-2022 Copyright AEΠ Mu</div>
 </div> <!-- /container -->
 
 <!-- script references -->

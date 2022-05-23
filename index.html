@@ -19,20 +19,20 @@
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
-<body>
-<div class="header">
+<header class="header">
     <img class="center-block" src="img/aepilogo.png" width="76.5" height="99"/>
-    <p class="title"><a class="link" href="index.html">Alpha Epsilon Pi | Mu Chapter</a></p>
-    <p class="description">At the University of Virginia</p>
-</div>
+    <p class="title" style="cursor: default;">Alpha Epsilon Pi | Mu Chapter</p>
+    <p class="description" style="cursor: default;">At the University of Virginia</p>
+</header>
+<body class="body">
 <div class="navbar bg-primary">
     <div class="container text-center">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html"><strong>Home</strong></a></li>
-            <li class="dropdown">
+            <button onclick="location.href = 'index.html';" class="nav-buttons">Home</button>
+            <button class="dropdown nav-buttons">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span
-                        class="caret"></span></a>
-                <ul class="dropdown-menu text-center">
+                    class="caret"></span></a>
+                <ul id="dropdown-list" class="dropdown-menu text-center">
                     <li><a href="actives.html">Active Brothers</a></li>
                     <li class="divider"></li>
                     <li><a href="history.html">Mu Chapter History</a></li>
@@ -41,50 +41,54 @@
                     <li class="divider"></li>
                     <li><a href="composites.html">Recent Composites</a></li>
                 </ul>
-            </li>
-            <li><a href="rush.html">Rush AEPi</a></li>
-            <li><a href="support.html">Support Mu</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            </button>
+            <button onclick="location.href = 'rush.html';" class="nav-buttons">Rush AEPi</button>
+            <button onclick="location.href = 'support.html';" class="nav-buttons">Support Mu</button>
+            <button onclick="location.href = 'contact.html';" class="nav-buttons">Contact</button>
         </ul>
     </div>
 </div>
 
 <div class="container">
     <div class="well well-lg">
-        <h3><strong>Alumni and Friends of AEPi Mu Chapter,</strong></h3>
+        <h3><strong>Alumni, Brothers and Friends,</strong></h3>
         <br>
         <p>
-            As a rising fourth year and midway through my tenure as Master of the Mu Chapter, I am unbelievably excited
-            for the upcoming semester. While we will greatly miss the departure of the Eta pledge class, our brotherhood
-            is excited to return to a more normal era, strengthened mightily by the addition of the Kappa pledge class.
-            Our brotherhood worked hard to maintain philanthropic and social ties throughout the COVID era, and we are
-            excited to continue our growth into the future with eager anticipation. With brothers maintaining academic,
-            extracurricular, and Jewish community related standards, we are poised for a continuing transformation in
-            the upcoming semester. I can speak for us all when I say that we anticipate an extraordinary future for the
-            Mu Chapter that sees us continuing to build ties within our school community, and I could not be prouder to
-            be alongside my brothers in this journey.
+            My name is Andy Ringold, and I am entering the second month of my term as Brother Master.
+            There is a lot to be excited about with the Mu chapter. After successfully navigating through
+            the struggles that COVID has brought to everybody for more than two years, we now have the
+            largest pledge class in our chapter's history! Twenty five selfless, caring, and strong men
+            are well on their way to becoming brothers of this great fraternity. The brothers of this fraternity
+            continue to remain involved and embody what it means to be in Alpha Epsilon Pi. Semester after
+            semester, our fraternity continues to excel academically, with our GPA ranking very highly among
+            greek life. Brothers continue to play an active role in the local Jewish community, and some even
+            take leadership positions at the Brody Jewish Center here at UVA. We also have a new civic engagement
+            chair who has been pushing for more and better organized volunteering among the brotherhood. The future
+            of AEPi Mu is bright, and I could not be more excited to see what it brings.
         </p>
         <br>
-        <p><strong>Jack Fechter</strong></p>
-        <p><strong>President, AEPi Mu Chapter</strong></p>
+        <p><strong>Andy Ringold</strong></p>
+        <p><strong>Brother Master, Alpha Epsilon Pi Mu Chapter</strong></p>
 
     </div>
 
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="actives.html">
-                <div class="jumbotron text-center">
+                <div class="jumbotron text-center raise">
                     <p><strong>Active Brothers</strong></p>
-                    <img class="img-responsive img-rounded center-block" title="President Teresa Sullivan"
-                         src="img/tsully.jpg"/>
+                    <!--Brothers in front of house Pic-->
+                    <img class="img-responsive img-rounded center-block"
+                         src="img/rush2022.jpeg"/>
                 </div>
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="rush.html">
-                <div class="jumbotron text-center">
+                <div class="jumbotron text-center raise">
                     <p><strong>Rush</strong></p>
-                    <img class="img-responsive img-rounded center-block" title="Bid Day" src="img/wallace.jpg"/>
+                    <!--Bid Day Pic-->
+                    <img class="img-responsive img-rounded center-block" src="img/wallace.jpg"/>
                 </div>
             </a>
         </div>
@@ -92,24 +96,26 @@
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="support.html">
-                <div class="jumbotron text-center">
+                <div class="jumbotron text-center raise">
                     <p><strong>Support</strong></p>
-                    <img class="img-responsive img-rounded center-block" title="Front of 1707 Grady"
+                    <!--House Pic-->
+                    <img class="img-responsive img-rounded center-block"
                          src="img/house.jpg"/>
                 </div>
             </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="contact.html">
-                <div class="jumbotron text-center">
+                <div class="jumbotron text-center raise">
                     <p><strong>Contact</strong></p>
-                    <img class="img-responsive img-rounded center-block" title="Foxfield" src="img/foxfield.jpg"/>
+                    <!--Foxfield Pic-->
+                    <img class="img-responsive img-rounded center-block" src="img/foxfield.jpg"/>
                 </div>
             </a>
         </div>
     </div>
     <hr>
-    <div class="well well-sm text-right">© 2012-2018 Copyright AEΠ Mu</div>
+    <div class="well well-sm text-right">© 2012-2022 Copyright AEΠ Mu</div>
 </div> <!-- /container -->
 
 <!-- script references -->

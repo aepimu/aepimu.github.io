@@ -20,20 +20,20 @@
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
-<body>
-<div class="header">
+<header class="header">
     <img class="center-block" src="img/aepilogo.png" width="76.5" height="99"/>
-    <p class="title"><a class="link" href="index.html">Alpha Epsilon Pi | Mu Chapter</a></p>
-    <p class="description">At the University of Virginia</p>
-</div>
+    <p class="title" style="cursor: default;">Alpha Epsilon Pi | Mu Chapter</p>
+    <p class="description" style="cursor: default;">At the University of Virginia</p>
+</header>
+<body class="body">
 <div class="navbar bg-primary">
     <div class="container text-center">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html"><strong>Home</strong></a></li>
-            <li class="dropdown">
+            <button onclick="location.href = 'index.html';" class="nav-buttons">Home</button>
+            <button class="dropdown nav-buttons">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span
-                        class="caret"></span></a>
-                <ul class="dropdown-menu text-center">
+                    class="caret"></span></a>
+                <ul id="dropdown-list" class="dropdown-menu text-center">
                     <li><a href="actives.html">Active Brothers</a></li>
                     <li class="divider"></li>
                     <li><a href="history.html">Mu Chapter History</a></li>
@@ -42,10 +42,10 @@
                     <li class="divider"></li>
                     <li><a href="composites.html">Recent Composites</a></li>
                 </ul>
-            </li>
-            <li><a href="rush.html">Rush AEPi</a></li>
-            <li><a href="support.html">Support Mu</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            </button>
+            <button onclick="location.href = 'rush.html';" class="nav-buttons">Rush AEPi</button>
+            <button onclick="location.href = 'support.html';" class="nav-buttons">Support Mu</button>
+            <button onclick="location.href = 'contact.html';" class="nav-buttons">Contact</button>
         </ul>
     </div>
 </div>
@@ -56,6 +56,15 @@
     </div>
 
     <div class="well well-lg">
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="text-center link-blue">
+                    <h3><strong><a href="pdf/Spring 2021 Mu Cow.pdf" target="_blank">Spring 2021</a></strong></h3>
+                </div>
+            </div>
+        </div>
+
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="text-center link-blue">
@@ -95,7 +104,7 @@
     </div>
 
     <hr>
-    <div class="well well-sm text-right">© 2012-2018 Copyright AEΠ Mu</div>
+    <div class="well well-sm text-right">© 2012-2022 Copyright AEΠ Mu</div>
 </div> <!-- /container -->
 
 <!-- script references -->

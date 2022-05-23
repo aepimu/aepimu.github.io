@@ -1,6 +1,4 @@
-.jumbotron-blue {
-  background-color: #aaa8aa
-}
+
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -24,6 +22,11 @@ a:hover {
   color: blue;
 }
 
+.well-elevate {
+  border-color: black;
+  box-shadow: 7px 5px 5px grey;
+}
+
 .title{
 	text-transform: uppercase;
     font-size: 4.6rem;
@@ -43,6 +46,10 @@ a:hover{
 	opacity: 0.75;
 }
 
+.body {
+  background-color: lightblue;
+}
+
 .description{
 	text-align: center;
 	font-size: 1.3rem;
@@ -56,10 +63,54 @@ a:hover{
     color: #293685;
 }
 .header{
-	margin: 25px 0;
+	padding-bottom: 3vh;
+  background-image: linear-gradient(to top, rgba(255, 255, 0, 0.774), rgba(0,0,255,0.5));
+  background-repeat: no-repeat;
 }
 
 .navbar-asdf{
 	background-color: #293685 !important;
 	color: #293685 !important;
+}
+
+.nav-buttons{
+  align-self: center;
+  color: #FFFF;
+  background-color: #337ab7;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.3s;
+  font-size:medium;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.nav-buttons:hover {
+  box-shadow: inset 200px 0 0 0 #f9e506;
+  cursor: pointer;
+  color: #000;
+}
+
+.raise {
+  transition-duration: .25s;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 7px 7px 7px #293685;
+  border-radius: 10px;
+  transform: translateY(-0.25em);
+}
+
+
+#dropdown-list {
+  background-color: white;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
 }
