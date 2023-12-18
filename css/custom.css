@@ -64,7 +64,7 @@ a:hover{
 }
 .header{
 	padding-bottom: 3vh;
-  background-image: linear-gradient(to top, rgba(255, 255, 0, 0.774), rgba(0,0,255,0.5));
+  background-color: rgb(3, 194, 250);
   background-repeat: no-repeat;
 }
 
