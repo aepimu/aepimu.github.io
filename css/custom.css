@@ -4,6 +4,11 @@ body {
     padding-top: 80px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .navbar {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -22,6 +27,7 @@ body {
 .navbar-brand img {
     height: 60px;
     width: auto;
+    padding-bottom: 4px;
 }
 
 .navbar-nav {
@@ -46,17 +52,18 @@ body {
 }
 
 .title-line1 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
+    color: #105aba;
 }
 
 .title-line2 {
     font-size: 16px;
     font-weight: normal;
     font-style: italic;
+    color: #333;
 }
 
-/* Buttons */
 .btn-primary {
     background-color: #105aba;
     border: none;
@@ -69,26 +76,47 @@ body {
     color: black;
 }
 
+.section-header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .card {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
+.hover-zoom:hover {
     transform: scale(1.02);
 }
 
-.img-fluid {
+.carousel-img {
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
-.footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: white;
-    font-size: 14px;
-    color: #666;
+.carousel-item img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#imgCarousel {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#imgCarousel, .carousel-inner, .carousel-item {
+    height: 100%;
+}
+
+
+.img-fluid {
+    border-radius: 10px;
 }
 
 .navbar-logo {
@@ -104,15 +132,7 @@ body {
     font-family: "Amiri", serif;
 }
 
-.title-line1 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #105aba;
-}
-
-.title-line2 {
-    font-size: 16px;
-    font-weight: normal;
-    font-style: italic;
-    color: #333;
+.footer-hr {
+    width: 100%;
+    border-color: black;
 }
