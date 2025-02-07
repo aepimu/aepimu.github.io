@@ -9,38 +9,12 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward"/>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <!-- Logo and Title (left side) -->
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="img/aepilogo.png" alt="AEPi Logo" class="navbar-logo">
-            <div class="nav-title">
-                <div class="title-line1">Alpha Epsilon Pi</div>
-                <div class="title-line2">Mu Chapter at the University of Virginia</div>
-            </div>
-        </a>
-
-        <!-- Navbar Toggler (displays with narrow window size) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar Links (right side) -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="actives.html">Active Brothers</a></li>
-                <li class="nav-item"><a class="nav-link" href="rush.html">Rush</a></li>
-                <li class="nav-item"><a class="nav-link" href="alumni.html">Alumni</a></li>
-                <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<header></header>
 
 <div class="container mt-4">
     <div class="row align-items-stretch d-flex pb-4">
@@ -48,25 +22,22 @@
             <div id="imgCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block h-100 carousel-img object-fit-cover" src="img/bidday2025.png"
-                             alt="First slide">
+                        <img class="d-block h-100 carousel-img object-fit-cover" src="img/bidday2025.png">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block h-100 carousel-img object-fit-cover" src="img/ContactPhoto.jpeg"
-                             alt="Second slide">
+                        <img class="d-block h-100 carousel-img object-fit-cover" src="img/ContactPhoto.jpeg">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block h-100 carousel-img object-fit-cover" src="img/bidday2025flag.png"
-                             alt="Third slide">
+                        <img class="d-block h-100 carousel-img object-fit-cover" src="img/bidday2025flag.png">
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4 d-flex">
             <div class="card p-4 shadow-sm w-100">
-                <p style="font-size: 24px; font-weight: bold">
+                <h4 class="fw-bold">
                     Alumni, Brothers, and Friends,
-                </p>
+                </h4>
                 <p>
                     My name is William Silver, and I have the honor of serving as Brother Master of the Mu Chapter of
                     Alpha Epsilon Pi here at UVA. As we begin this semester, we are proud to welcome 17 new members into
@@ -95,51 +66,57 @@
 
     </div>
 
-    <div class="row text-center d-flex align-items-center pb-4">
-        <div class="col">
-            <hr class="custom-hr">
+    <div class="card p-5 mb-2 shadow-sm">
+        <div class="text-center">
+            <h2 class="fw-bold">About Our Brotherhood</h2>
         </div>
-        <div class="col-auto section-header">
-            About Our Brotherhood
-        </div>
-        <div class="col">
-            <hr class="custom-hr">
+        <div class="row text-center mt-3">
+            <div class="col d-flex flex-column position-relative">
+                <a href="actives.html" class="hover-zoom">
+                    <h5 class="mt-2 d-inline-flex align-items-center justify-content-center">
+                        <b>Active Brothers</b>
+                        <span class="material-symbols-outlined ps-1">arrow_forward</span>
+                    </h5>
+                    <p class="px-4">Meet the current brothers and board members of our AEΠ chapter.</p>
+                    <div class="flex-grow-1 d-flex align-items-center justify-content-center">
+                        <img class="img-fluid rounded" src="img/bidday2025.png"
+                             style="width: 80%; object-fit: cover; aspect-ratio: 4/3;">
+                    </div>
+                </a>
+                <div class="vr position-absolute top-0 bottom-0 end-0 d-none d-md-block"></div>
+            </div>
+            <div class="col d-flex flex-column position-relative">
+                <a href="actives.html" class="hover-zoom">
+                    <h5 class="mt-2 d-inline-flex align-items-center justify-content-center">
+                        <b>Rush</b>
+                        <span class="material-symbols-outlined ps-1">arrow_forward</span>
+                    </h5>
+                    <p class="px-4">Find how to join the brotherhood and sign up for IFC rush.</p>
+                    <div class="flex-grow-1 d-flex align-items-center justify-content-center">
+                        <img class="img-fluid rounded" src="img/RushThrow.jpeg"
+                             style="width: 80%; object-fit: cover; aspect-ratio: 4/3;">
+                    </div>
+                </a>
+                <div class="vr position-absolute top-0 bottom-0 end-0 d-none d-md-block"></div>
+            </div>
+            <div class="col d-flex flex-column">
+                <a href="actives.html" class="hover-zoom">
+                    <h5 class="mt-2 d-inline-flex align-items-center justify-content-center">
+                        <b>Alumni</b>
+                        <span class="material-symbols-outlined ps-1">arrow_forward</span>
+                    </h5>
+                    <p class="px-4">View past composites, newsletters, and support our chapter.</p>
+                    <div class="flex-grow-1 d-flex align-items-center justify-content-center">
+                        <img class="img-fluid rounded" src="img/NewContactPhoto.jpeg"
+                             style="width: 80%; object-fit: cover; aspect-ratio: 4/3;">
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
+</div>
 
-    <div class="row">
-        <div class="col">
-            <a href="actives.html">
-                <div class="card text-center p-4 hover-zoom">
-                    <p><strong>Active Brothers</strong></p>
-                    <img class="img-fluid rounded" src="img/bidday2025.png"/>
-                </div>
-            </a>
-        </div>
-        <div class="col">
-            <a href="rush.html">
-                <div class="card text-center p-4 hover-zoom">
-                    <p><strong>Rush</strong></p>
-                    <img class="img-fluid rounded" src="img/RushThrow.jpeg"/>
-                </div>
-            </a>
-        </div>
-        <div class="col">
-            <a href="alumni.html">
-                <div class="card text-center p-4 hover-zoom">
-                    <p><strong>Alumni</strong></p>
-                    <img class="img-fluid rounded" src="img/NewContactPhoto.jpeg"/>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="container mt-4">
-    <hr class="custom-hr">
-</div>
-<div class="row text-center pb-4 pt-2">
-    <div class="">© 2012-2025 Alpha Epsilon Pi Mu Chapter | <a href="contact.html"><u>Contact Us</u></a></div>
-</div>
+<footer></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="main.js"></script>

@@ -1,21 +1,29 @@
-<nav>
-    <div class="nav-container">
-        <div class="nav-left">
-            <a href="index.html">
-            <img src="img/aepilogo.png" alt="AEPi Logo" class="logo">
-            </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Logo and Title (left side) -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="img/aepilogo.png" alt="AEPi Logo" class="navbar-logo">
             <div class="nav-title">
-                <a href="index.html"><span class="title-line1">Alpha Epsilon Pi</span></a>
-                <a href="index.html"><span class="title-line2">Mu Chapter at the University of Virginia</span></a>
+                <div class="title-line1">Alpha Epsilon Pi</div>
+                <div class="title-line2">Mu Chapter at the University of Virginia</div>
             </div>
-        </div>
-        <div class="nav-right">
-            <button onclick="location.href='index.html';" class="nav-buttons">Home</button>
-            <button onclick="location.href='actives.html';" class="nav-buttons">Active Brothers</button>
-            <button onclick="location.href='history.html';" class="nav-buttons">Alumni</button>
-            <button onclick="location.href='rush.html';" class="nav-buttons">Rush</button>
-            <button onclick="location.href='support.html';" class="nav-buttons">Support</button>
-            <button onclick="location.href='contact.html';" class="nav-buttons">Contact</button>
+        </a>
+
+        <!-- Navbar Toggler (displays with narrow window size) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links (right side) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="actives.html">Active Brothers</a></li>
+                <li class="nav-item"><a class="nav-link" href="rush.html">Rush</a></li>
+                <li class="nav-item"><a class="nav-link" href="alumni.html">Alumni</a></li>
+                <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
         </div>
     </div>
 </nav>
