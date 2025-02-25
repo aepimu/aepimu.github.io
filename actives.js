@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="card p-3 w-100">
                         <h4 class="fw-bold">${brother.name}</h4>
                         <p class="mb-1">${brother.gradYear} · ${brother.hometown}</p>
-                        <i>${brother.position ? `${brother.position}` : ""}</i
+                        <i>${brother.position ? `${brother.position}` : ""}</i>
                     </div>
                 `;
 
