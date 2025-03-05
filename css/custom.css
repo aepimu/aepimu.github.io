@@ -114,6 +114,9 @@ a {
 }
 
 #imgCarousel {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
