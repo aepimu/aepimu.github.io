@@ -3,17 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const grid = document.getElementById("newsletter-container");
-            let row;
 
-            data.forEach((newsletter, index) => {
-                if (index % 3 === 0) {
-                    row = document.createElement("div");
-                    row.className = "row";
-                    grid.appendChild(row);
-                }
-
+            data.forEach((newsletter) => {
                 const col = document.createElement("div");
-                col.className = "col-4 hover-zoom p-5 text-center";
+                col.className = "col-12 col-sm-6 col-lg-4 hover-zoom p-5 text-center d-flex";
                 col.innerHTML = `
                     <a href="pdf/${newsletter.pdf}" target="_blank">
                         <h4 class="fw-bold">${newsletter.label}</h4>
@@ -21,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </a>
                 `;
 
-                row.appendChild(col);
+                grid.appendChild(col);
             });
         })
         .catch(error => console.error("Error loading composite data:", error));
