@@ -39,7 +39,7 @@
     "name": "Eli Beaubien",
     "hometown": "Bryn Mawr, PA",
     "gradYear": "2025",
-    "position": "Co-Rush Chair"
+    "position": ""
   },
   {
     "name": "Ethan Fox",
@@ -123,7 +123,7 @@
     "name": "Nikolai Kosinski",
     "hometown": "Alexandria, VA",
     "gradYear": "2025",
-    "position": "Sentinel"
+    "position": ""
   },
   {
     "name": "Robby Lefkowitz",
@@ -195,7 +195,7 @@
     "name": "Jonah Wilentz",
     "hometown": "Fort Lauderdale, FL",
     "gradYear": "2026",
-    "position": "Co-Rush Chair"
+    "position": ""
   },
   {
     "name": "Justin Lewis",
@@ -207,7 +207,7 @@
     "name": "Landon Jones",
     "hometown": "Danville, VA",
     "gradYear": "2026",
-    "position": "House Manager"
+    "position": ""
   },
   {
     "name": "Micah Israel",
@@ -237,7 +237,7 @@
     "name": "Aiden Wycinsky",
     "hometown": "Burke, VA",
     "gradYear": "2027",
-    "position": "Athletic & Wellness Chair"
+    "position": "House Manager, Athletic & Wellness Chair"
   },
   {
     "name": "Alex Heyman",
@@ -273,13 +273,13 @@
     "name": "Eric Brown",
     "hometown": "Marlboro, NJ",
     "gradYear": "2027",
-    "position": ""
+    "position": "Co-Rush Chair"
   },
   {
     "name": "Ethan Abel",
     "hometown": "Baltimore, MD",
     "gradYear": "2027",
-    "position": ""
+    "position": "Sentinel"
   },
   {
     "name": "Ethan Weisenberg",
@@ -303,13 +303,19 @@
     "name": "Josh Kelner",
     "hometown": "Bethesda, MD",
     "gradYear": "2027",
-    "position": ""
+    "position": "Co-Rush Chair"
   },
   {
     "name": "Michael Liebermann",
     "hometown": "Westfield, NJ",
     "gradYear": "2027",
     "position": "Jewish Identity Chair"
+  },
+  {
+    "name": "Samuel Bromberg",
+    "hometown": "West Hartford, CT",
+    "gradYear": "2027",
+    "position": ""
   },
   {
     "name": "Sam Kane",
@@ -334,5 +340,95 @@
     "hometown": "Suffern, NY",
     "gradYear": "2027",
     "position": "Master"
+  },
+  {
+    "name": "Adrian Kladakis",
+    "hometown": "Vienna, VA",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Alec Wachsman",
+    "hometown": "Roslyn, NY",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Casey Barkan",
+    "hometown": "Virginia Beach, VA",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Graham Roulston",
+    "hometown": "Woodstock, VA",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Henry Anderson",
+    "hometown": "Alexandria, VA",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Jack Canter",
+    "hometown": "Armonk, NY",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Jake Lehrman",
+    "hometown": "Washington, DC",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Jacob Peters",
+    "hometown": "Rockville, MD",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Jeremy Negrin",
+    "hometown": "New York City, NY",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Jonathan Notis",
+    "hometown": "Chappaqua, NY",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Justin Diamond",
+    "hometown": "Woodcliff Lake, NJ",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Michael Michelotti",
+    "hometown": "Oak Park, IL",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Simon Watkins",
+    "hometown": "Charlottesville, VA",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "William Sutton",
+    "hometown": "Falls Church, VA",
+    "gradYear": "2028",
+    "position": ""
+  },
+  {
+    "name": "Zachary Minkin",
+    "hometown": "Baltimore, MD",
+    "gradYear": "2028",
+    "position": ""
   }
 ]
