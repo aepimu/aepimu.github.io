@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("contact.json")
+    const timestamp = new Date().getTime();
+    const url = `contact.json?v=${timestamp}`;
+    fetch(url)
         .then(response => response.json())
         .then(data => {
             const grid = document.getElementById("contacts-list");
@@ -22,5 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
                 grid.appendChild(col);
             });
         })
-        .catch(error => console.error("Error loading brotherhood data:", error));
+        .catch(error => console.error("Error loading contacts data:", error));
 });

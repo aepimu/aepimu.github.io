@@ -93,31 +93,31 @@
     "name": "Alex Heyman",
     "hometown": "Richmond, VA",
     "gradYear": "2027",
-    "position": "Alumni Chair"
+    "position": "Alumni Relations Chair"
   },
   {
     "name": "Ben Lawrence",
     "hometown": "Cleveland, OH",
     "gradYear": "2027",
-    "position": "Civic Engagement & Community Service Chair"
+    "position": ""
   },
   {
     "name": "Ben Margolis",
     "hometown": "West Hartford, CT",
     "gradYear": "2027",
-    "position": "Professional Development Chair"
+    "position": ""
   },
   {
     "name": "Chase O'Malley",
     "hometown": "Freehold, NJ",
     "gradYear": "2027",
-    "position": "Scribe"
+    "position": ""
   },
   {
     "name": "Eli Seiden",
     "hometown": "Fort Lauderdale, FL",
     "gradYear": "2027",
-    "position": "Co-Social Chair, Merchandise Chair, Co-Parents' Relations Chair"
+    "position": "Merchandise Chair, Co-Parents' Relations Chair"
   },
   {
     "name": "Eric Brown",
@@ -135,7 +135,7 @@
     "name": "Ethan Weisenberg",
     "hometown": "Marlton, NJ",
     "gradYear": "2027",
-    "position": "Co-Social Chair, Webmaster, Social Media Chair, Co-Parents' Relations Chair, Sustainability Chair"
+    "position": "Webmaster, Social Media Chair, Co-Parents' Relations Chair, Sustainability Chair"
   },
   {
     "name": "Gavin Croke",
@@ -147,7 +147,7 @@
     "name": "Jake Bernstein",
     "hometown": "West Hartford, CT",
     "gradYear": "2027",
-    "position": "Lieutenant Master, Brotherhood Chair, Philanthropy Chair, Israel Engagement Chair"
+    "position": ""
   },
   {
     "name": "Josh Kelner",
@@ -159,19 +159,19 @@
     "name": "Michael Liebermann",
     "hometown": "Westfield, NJ",
     "gradYear": "2027",
-    "position": "Jewish Identity Chair"
+    "position": ""
   },
   {
     "name": "Samuel Bromberg",
     "hometown": "West Hartford, CT",
     "gradYear": "2027",
-    "position": ""
+    "position": "Lieutenant Master, Brotherhood Chair, Philanthropy Chair, Jewish Identity Chair"
   },
   {
     "name": "Sam Kane",
     "hometown": "Muttontown, NY",
     "gradYear": "2027",
-    "position": "Exchequer"
+    "position": ""
   },
   {
     "name": "Samuel Pomerleau",
@@ -189,7 +189,7 @@
     "name": "William Silver",
     "hometown": "Suffern, NY",
     "gradYear": "2027",
-    "position": "Master"
+    "position": ""
   },
   {
     "name": "Adrian Kladakis",
@@ -201,7 +201,7 @@
     "name": "Alec Wachsman",
     "hometown": "Roslyn, NY",
     "gradYear": "2028",
-    "position": ""
+    "position": "Scribe"
   },
   {
     "name": "Casey Barkan",
@@ -243,19 +243,19 @@
     "name": "Jeremy Negrin",
     "hometown": "New York City, NY",
     "gradYear": "2028",
-    "position": ""
+    "position": "Co-Social Chair"
   },
   {
     "name": "Jonathan Notis",
     "hometown": "Chappaqua, NY",
     "gradYear": "2028",
-    "position": ""
+    "position": "Exchequer, Professional Development Chair"
   },
   {
     "name": "Justin Diamond",
     "hometown": "Woodcliff Lake, NJ",
     "gradYear": "2028",
-    "position": ""
+    "position": "Co-Social Chair"
   },
   {
     "name": "Michael Michelotti",
@@ -279,6 +279,6 @@
     "name": "Zachary Minkin",
     "hometown": "Baltimore, MD",
     "gradYear": "2028",
-    "position": ""
+    "position": "Master, Civic Engagement & Community Service Chair"
   }
 ]

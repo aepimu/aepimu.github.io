@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("brothers.json")
+    const timestamp = new Date().getTime();
+    const url = `brothers.json?v=${timestamp}`;
+    fetch(url)
         .then(response => response.json())
         .then(data => {
             const grid = document.getElementById("brothers-grid");
