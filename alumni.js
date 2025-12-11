@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const numColumns = 4;
     const container = document.getElementById("past-masters-container");
-
-    fetch("masters.json")
+    const timestamp = new Date().getTime();
+    const url = `masters.json?v=${timestamp}`;
+    fetch(url)
         .then(response => response.json())
         .then(pastMasters => {
             const totalItems = pastMasters.length;
