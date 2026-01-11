@@ -87,13 +87,13 @@
     "name": "Aiden Wycinsky",
     "hometown": "Burke, VA",
     "gradYear": "2027",
-    "position": "House Manager, Athletic & Wellness Chair"
+    "position": "House Manager"
   },
   {
     "name": "Alex Heyman",
     "hometown": "Richmond, VA",
     "gradYear": "2027",
-    "position": "Alumni Relations Chair"
+    "position": ""
   },
   {
     "name": "Ben Lawrence",
@@ -117,7 +117,7 @@
     "name": "Eli Seiden",
     "hometown": "Fort Lauderdale, FL",
     "gradYear": "2027",
-    "position": "Merchandise Chair, Co-Parents' Relations Chair"
+    "position": ""
   },
   {
     "name": "Eric Brown",
@@ -135,13 +135,13 @@
     "name": "Ethan Weisenberg",
     "hometown": "Marlton, NJ",
     "gradYear": "2027",
-    "position": "Co-Parents' Relations Chair, Sustainability Chair"
+    "position": "Sustainability Chair"
   },
   {
     "name": "Gavin Croke",
     "hometown": "Wrentham, MA",
     "gradYear": "2027",
-    "position": "Academic Chair"
+    "position": ""
   },
   {
     "name": "Jake Bernstein",
@@ -189,19 +189,19 @@
     "name": "William Silver",
     "hometown": "Suffern, NY",
     "gradYear": "2027",
-    "position": ""
+    "position": "Alumni Relations Chair"
   },
   {
     "name": "Adrian Kladakis",
     "hometown": "Vienna, VA",
     "gradYear": "2028",
-    "position": ""
+    "position": "Athletic & Wellness Chair"
   },
   {
     "name": "Alec Wachsman",
     "hometown": "Roslyn, NY",
     "gradYear": "2028",
-    "position": "Scribe"
+    "position": "Scribe, Parents Relations Chair"
   },
   {
     "name": "Casey Barkan",
@@ -219,7 +219,7 @@
     "name": "Henry Anderson",
     "hometown": "Alexandria, VA",
     "gradYear": "2028",
-    "position": ""
+    "position": "Merchandise Chair"
   },
   {
     "name": "Jack Canter",
@@ -231,7 +231,7 @@
     "name": "Jake Lehrman",
     "hometown": "Washington, DC",
     "gradYear": "2028",
-    "position": ""
+    "position": "Academic Chair"
   },
   {
     "name": "Jacob Peters",
