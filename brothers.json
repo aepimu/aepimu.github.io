@@ -117,7 +117,7 @@
     "name": "Eli Seiden",
     "hometown": "Fort Lauderdale, FL",
     "gradYear": "2027",
-    "position": ""
+    "position": "Community Service Chair"
   },
   {
     "name": "Eric Brown",
@@ -165,13 +165,13 @@
     "name": "Samuel Bromberg",
     "hometown": "West Hartford, CT",
     "gradYear": "2027",
-    "position": "Lieutenant Master, Brotherhood Chair, Philanthropy Chair, Jewish Identity Chair"
+    "position": "Lieutenant Master, Brotherhood Chair, Philanthropy Chair"
   },
   {
     "name": "Sam Kane",
     "hometown": "Muttontown, NY",
     "gradYear": "2027",
-    "position": ""
+    "position": "Policy Amendment Chair"
   },
   {
     "name": "Samuel Pomerleau",
@@ -207,7 +207,7 @@
     "name": "Casey Barkan",
     "hometown": "Virginia Beach, VA",
     "gradYear": "2028",
-    "position": ""
+    "position": "Jewish Identity Chair"
   },
   {
     "name": "Graham Roulston",
@@ -231,7 +231,7 @@
     "name": "Jake Lehrman",
     "hometown": "Washington, DC",
     "gradYear": "2028",
-    "position": "Academic Chair"
+    "position": "Academic Chair, Policy Amendment Chair"
   },
   {
     "name": "Jacob Peters",
@@ -279,6 +279,6 @@
     "name": "Zachary Minkin",
     "hometown": "Baltimore, MD",
     "gradYear": "2028",
-    "position": "Master, Civic Engagement & Community Service Chair"
+    "position": "Master"
   }
 ]
