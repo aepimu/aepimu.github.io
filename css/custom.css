@@ -159,6 +159,31 @@ a {
     border-radius: 10px;
 }
 
+.email-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #105aba;
+    background: rgba(16, 90, 186, 0.08);
+    transition: all 0.25s ease;
+    flex-shrink: 0;
+}
+
+.email-icon-btn:hover {
+    background: #105aba;
+    color: white;
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(16, 90, 186, 0.35);
+}
+
+.email-icon-btn .envelope-icon {
+    width: 22px;
+    height: 22px;
+}
+
 .mail-button {
     width: 40px;
     height: 40px;

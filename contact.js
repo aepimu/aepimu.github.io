@@ -16,7 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
                             <p class="">${contact.name}</p>
                         </div>
                         <div>
-                            <a class="" href="mailto:${contact.email}"><span class="material-symbols-outlined opacity-50 hover-zoom">mail</span></a>
+                            <a class="email-icon-btn" href="mailto:${contact.email}" title="Email ${contact.name}">
+                                <svg class="envelope-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                    <path d="m22 6-10 7L2 6"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 `;
