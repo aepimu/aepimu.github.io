@@ -1,3 +1,26 @@
+/* ========== Design tokens ========== */
+:root {
+    --color-navy: #0f172a;
+    --color-navy-soft: #1e293b;
+    --color-cream: #faf9f6;
+    --color-cream-dark: #f0ede6;
+    --color-gold: #c9a227;
+    --color-gold-light: #e8d5a3;
+    --color-accent: #105aba;
+    --color-text: #1e293b;
+    --color-text-muted: #64748b;
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+    --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+    --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.12);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+    --font-sans: "Plus Jakarta Sans", "Figtree", sans-serif;
+    --font-serif: Amiri, serif;
+    --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -7,6 +30,94 @@ body {
     background-color: #afd4ef;
     font-family: "Figtree", sans-serif;
     padding-top: 80px;
+}
+
+/* ========== Homepage bottom cards (About Our Brotherhood) ========== */
+.home-about {
+    padding: 2rem 0 3rem;
+    margin-top: 0.5rem;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section-title {
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-navy);
+    margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: var(--color-navy);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+@media (max-width: 991px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about-card {
+    display: block;
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+.about-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(201, 162, 39, 0.25);
+}
+
+.about-card-image-wrap {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.about-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.about-card:hover .about-card-image {
+    transform: scale(1.04);
+}
+
+.about-card-body {
+    padding: 1.5rem;
+}
+
+.about-card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-navy);
+    margin-bottom: 0.5rem;
+}
+
+.about-card-desc {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+    margin: 0;
 }
 
 a {
