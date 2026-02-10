@@ -1,25 +1,43 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <!-- Logo and Title (left side) -->
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="img/navbarlogo.svg" alt="Alpha Epsilon Pi, Mu Chapter at the University of Virginia" class="navbar-logo">
+<nav class="navbar navbar-expand-lg navbar-middle-style">
+    <div class="container-fluid navbar-middle-inner">
+        <!-- Left nav -->
+        <ul class="navbar-nav navbar-nav-left">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="actives.html">Active Brothers</a></li>
+            <li class="nav-item"><a class="nav-link" href="rush.html">Rush</a></li>
+        </ul>
+
+        <!-- <span class="navbar-sep" aria-hidden="true">★</span> -->
+
+        <!-- Center logo -->
+        <a class="navbar-brand navbar-brand-center" href="index.html">
+            <img src="img/navbarlogo-navbar.svg" alt="Alpha Epsilon Pi, Mu Chapter at the University of Virginia" class="navbar-logo">
         </a>
 
-        <!-- Navbar Toggler (displays with narrow window size) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <!-- <span class="navbar-sep" aria-hidden="true">★</span> -->
+
+        <!-- Right nav -->
+        <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item"><a class="nav-link" href="alumni.html">Alumni</a></li>
+            <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Mobile toggler -->
+        <button class="navbar-toggler navbar-toggler-middle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+    </div>
 
-        <!-- Navbar Links (right side) -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="actives.html">Active Brothers</a></li>
-                <li class="nav-item"><a class="nav-link" href="rush.html">Rush</a></li>
-                <li class="nav-item"><a class="nav-link" href="alumni.html">Alumni</a></li>
-                <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+    <!-- Mobile-only collapsed menu (hidden on desktop) -->
+    <div class="collapse navbar-collapse navbar-collapse-middle" id="navbarNav">
+        <ul class="navbar-nav navbar-nav-mobile">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="actives.html">Active Brothers</a></li>
+            <li class="nav-item"><a class="nav-link" href="rush.html">Rush</a></li>
+            <li class="nav-item"><a class="nav-link" href="alumni.html">Alumni</a></li>
+            <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
     </div>
 </nav>

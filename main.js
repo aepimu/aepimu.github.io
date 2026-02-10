@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("footer.html")
         .then(response => response.text())
         .then(data => {
-            document.querySelector("footer").innerHTML = data;
+            const footerEl = document.querySelector("footer");
+            footerEl.className = "site-footer";
+            footerEl.innerHTML = data;
 
             // Highlight the active page
             const currentPage = window.location.pathname.split("/").pop();
